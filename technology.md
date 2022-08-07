@@ -16,7 +16,7 @@ Once the data has been clustered, we will use linear regression to identify oppo
 We will use Tableau to visualize our data and create an interactive dashboard that displays counties in need of a reproductive health clinic. The county information supplied to the user will also include House Representative contact information and a call to action to reach out to local Representatives to demand change. Our dashboard will allow users to download data for their region to share with their Representatives.
 
 ## Group Collaboration
-Throughout the project, our team will use GitHub to create a shared repository for all team members to contribute as well as peer review and edit each others' work. To create our ERD, we will use Lucid Chart to set up the database structure and how different data tables will tie together. Finally, we will use Google Jamboard to document tasks needed to accomplish for each segment. See image below for First Segment Jamboard page.
+Throughout the project, our team will use GitHub to create a shared repository for all team members to contribute as well as peer review and edit each others' work. To create our ERD, we will use QuickDBD to set up the database structure and how different data tables will tie together. Finally, we will use Google Jamboard to document tasks needed to accomplish for each segment. See image below for First Segment Jamboard page.
 |*First Segment Jamboard*|
 |:--:|
 |![jamboard](image/../Resources/images/first_seg_jam.png)|
