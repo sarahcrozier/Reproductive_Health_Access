@@ -9,9 +9,6 @@ The purpose of this project is to identify the current state of access to reprod
 * What are current locations that would benifit from reproductive health centers to address the lack of access to care?
 
 ## Data Sources
-* https://www.guttmacher.org/ 
-    
-    Data available on a state-by-state bases for reproductive health indicators.
 
 * https://crisispregnancycentermap.com/
 
@@ -21,13 +18,11 @@ The purpose of this project is to identify the current state of access to reprod
 
     Data pertaining to indicators of health access to care. 
 
-* https://worldpopulationreview.com/state-rankings/maternal-mortality-rate-by-state
+* https://www.plannedparenthood.org/
 
-    Maternal mortality rates by state.
+Data pertaining to current planned parenthood clinics.
 
-* https://statecancerprofiles.cancer.gov/map/map.withimage.php?00&state&001&001&00&2&02&0&1&10&0#results
 
-    State cancer death rates.
 
 ## Working Agreements 
 * We agree to be kind and professional.
