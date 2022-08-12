@@ -16,11 +16,14 @@ The purpose of this project is to identify the current state of access to reprod
 
 * https://www.kff.org/state-category/womens-health/
 
-    Data pertaining to indicators of health access to care. 
+    Data pertaining to indicators of health access to care, including insurance status, preventitive care, abortion access, teen pregnancy, maternal mortality.
 
 * https://www.plannedparenthood.org/
+    
+    Data pertaining to current planned parenthood clinics.
 
-Data pertaining to current planned parenthood clinics.
+The data is organized into databases as followed: 
+![ERD](Resources/images/Reproductive_Health_ERD.png)*Reproductive Health ERD*
 
 
 
@@ -32,5 +35,6 @@ Data pertaining to current planned parenthood clinics.
 * We will communicate non-urgent issues via Slack
 * We will save documents to our shared Google drive. 
 * We agree to push our work to our branch to allow others to review our work. 
+* We will update Jamboard to show the flow of our work.
 
 
