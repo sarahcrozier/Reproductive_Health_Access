@@ -27,7 +27,11 @@ The purpose of this project is to identify the current state of access to reprod
 The data is organized into databases as followed: 
 ![ERD](Resources/images/Reproductive_Health_ERD.png)*Reproductive Health ERD*
 
-    
+
+# Machine Learning Model
+We will begin our machine learning using the unsupervised learning method of clustering using K-means. This will help us determine the states that are adaquate and not adaquate.  Than we will use a logistic regression to determine if a county needs additional health clinics or if it has adequate access. 
+
+
 
 ## Working Agreements 
 * We agree to be kind and professional.
