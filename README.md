@@ -17,11 +17,8 @@ The purpose of this project is to identify the current state of access to reprod
 
 * https://www.kff.org/state-category/womens-health/
 
-<<<<<<< HEAD
     Data pertaining to indicators of health access to care, including insurance status, preventitive care, abortion access, teen pregnancy, maternal mortality.
-=======
-    Data pertaining to indicators of health access to care. Data pertaining to indicators of health access to care, insurance coverage, federal poverty levels, community health clinics.
->>>>>>> 357d58deb9fb20bf5c6857382e5b41c98ad2cd69
+
 
 * https://www.plannedparenthood.org/
     
