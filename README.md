@@ -1,4 +1,4 @@
-# Reproductive_Health_Access
+# Reproductive Health Access
 
 ## Overview
 The purpose of this project is to identify the current state of access to reproductive health available in the United States. 
@@ -10,19 +10,20 @@ The purpose of this project is to identify the current state of access to reprod
 
 ## Data Sources
 
+
 * https://crisispregnancycentermap.com/
 
     Data will be scraped to identify centers that do not actually provide any reproductive health services. 
 
 * https://www.kff.org/state-category/womens-health/
 
-    Data pertaining to indicators of health access to care. 
+    Data pertaining to indicators of health access to care. Data pertaining to indicators of health access to care, insurance coverage, federal poverty levels, community health clinics.
 
 * https://www.plannedparenthood.org/
 
 Data pertaining to current planned parenthood clinics.
 
-
+    
 
 ## Working Agreements 
 * We agree to be kind and professional.
