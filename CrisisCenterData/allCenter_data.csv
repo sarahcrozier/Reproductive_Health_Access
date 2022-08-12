@@ -616,8 +616,8 @@ A Door of Hope Pregnancy Center,"316 E Main St
 Middletown, DE 19709",Delaware,New Castle,39.4496,-75.7056,2
 A Door of Hope Pregnancy Center,"3407 Lancaster Pike
 Wilmington, DE 19805",Delaware,New Castle,39.7548,-75.5933,2
-The Northwest Center,"2702 Ontario Rd NW Washington, DC 20009",District of Columbia,District of Columbia,38.9244,-77.0405,1
-Capitol Hill Pregnancy Center,"713 Maryland Ave NE Washington, DC 20002",District of Columbia,District of Columbia,38.8952,-76.9952,1
+The Northwest Center,"2702 Ontario Rd NW Washington, DC 20009",District of Columbia,Washington D.C.,38.9244,-77.0405,1
+Capitol Hill Pregnancy Center,"713 Maryland Ave NE Washington, DC 20002",District of Columbia,Washington D.C.,38.8952,-76.9952,1
 Catholic Charities,"1200 E Main St Pahokee, FL 33476",Florida,Palm Beach,26.8301,-80.6549,2
 A Sheltering Tree,"1616 Cincinnati Ave Panama City, FL 32401",Florida,Bay,30.1789,-85.7033,1
 Life Choices Family Medical,"18560 N Dale Mabry Hwy Lutz, FL 33548",Florida,Hillsborough,28.1416,-82.4999,1
@@ -2954,9 +2954,9 @@ Drexel, NC 28619",North Carolina,Burke,35.7556,-81.605,2
 Heartbeats Women's Center,"5968 S NC 16 Hwy
 Maiden, NC 28650",North Carolina,Catawba,36.2266,-81.255,2
 Crisis Pregnancy Center,"717 Gastonia Technology Pkwy
-Dallas, NC  28034",North Carolina,‎Gaston,35.3069,-81.1885,2
+Dallas, NC  28034",North Carolina,Gaston,35.3069,-81.1885,2
 Smoky Mountain Pregnancy Care Center,"117 Monteith Gap Rd
-Cullowhee, NC 28723",North Carolina,‎Jackson,35.3163,-83.1795,2
+Cullowhee, NC 28723",North Carolina,Jackson,35.3163,-83.1795,2
 Cabarrus Women's Center,"163 Winecoff Ave NW
 Concord, NC 28025",North Carolina,Cabarrus,35.4222,-80.6011,2
 GATE Pregnancy Resource Center,"280 Concord Pkwy, Ste 119
@@ -3317,80 +3317,71 @@ Anadarko, OK 73005",Oklahoma,Caddo,35.4839,-97.5304,2
 Life Services at Pathways,"1721 N Main, Ste 2
 Altus, OK 73521",Oklahoma,Jackson,34.6576,-99.3345,2
 House of Hope Pregnancy Care Center,"509 E 12th St Ada, OK 74820",Oklahoma,Pontotoc,34.7734,-96.6717,2
-Sweet Home Pregnancy Care Center,"1344 Main St Sweet Home, OR 97386",Oregon,Linn,44.3984,-122.728,1
-TruCare Pregnancy Clinic,"140 SW 11th St
-Hermiston, OR 97838",Oregon,Umatilla,45.8403,-119.293,2
-The Pregnancy Center,"2019 Aero Way, Ste 103
-Medford, OR 97504",Oregon,Jackson,42.3664,-122.861,2
-St Germaine Pregnancy Center,"3885 Wolverine St NE, Ste A2
-Salem, OR 97305",Oregon,Marion,44.9583,-122.985,2
-Rachel Pregnancy Center,"2192 Court Ave
-Baker City, OR 97814",Oregon,Baker,44.7763,-117.833,2
-Pregnancy Resource Centers of Central Oregon,"950 SW Veterans Way
-Redmond, OR 97756",Oregon,Deschutes,44.2674,-121.179,2
-Pregnancy Resource Centers of Central Oregon,"346 NW Deer St
-Prineville, OR 97754",Oregon,Crook,44.3033,-120.851,2
-Pregnancy Resource Centers of Central Oregon,"369 NE Revere Ave, #102
-Bend, OR 97701",Oregon,Deschutes,44.0673,-121.301,2
-Pregnancy Resource Center of Sandy & Estacada,"17270 SE Bluff Rd
-Sandy, OR 97055",Oregon,Clackamas,45.3983,-122.27,2
-Pregnancy Resource Center of Sandy & Estacada,"107 NW 5th Ave
-Estacada, OR 97023",Oregon,Clackamas,45.2938,-122.335,2
-Pregnancy Resource Center,"5117 SE Powell Blvd, #3
-Portland, OR 97206",Oregon,Multnomah,45.4977,-122.609,2
-Pregnancy Resource Center,"4975 SW Watson
-Beaverton, OR 97005",Oregon,Washington,45.4838,-122.807,2
-Pregnancy Resource Center,"104 NW 11th St
-Gresham, OR 97030",Oregon,Multnomah,45.5048,-122.433,2
-Pregnancy Hope Center,"2421 Washburn Way, Ste A
-Klamath Falls, OR 97603",Oregon,Klamath,42.2058,-121.756,2
-Vine Medical Pregnancy Care Clinic,"1218 3rd St
-Lafayette, OR 97127",Oregon,Yamhill,45.2426,-123.105,2
-Pregnancy Center of the Illinois Valley,"331 E Cottage Park Dr, Ste 4 
-Cave Junction, OR 97523",Oregon,Josephine,42.174,-123.643,2
-Hope With Options Pregnancy Care Center,"311 SE Dorion Ave Pendleton, OR 97801",Oregon,Umatilla,45.6727,-118.784,2
+Rachel Pregnancy Center,"2192 Court Ave Baker City, OR 97814",Oregon,Baker,44.7763,-117.833,2
+Pregnancy Resource Center of Sandy & Estacada,"17270 SE Bluff Rd Sandy, OR 97055",Oregon,Clackamas,45.3983,-122.27,2
+Pregnancy Resource Center of Sandy & Estacada,"107 NW 5th Ave Estacada, OR 97023",Oregon,Clackamas,45.2938,-122.335,2
 Pregnancy Care Centers,"158 SW 2nd Ave
 Canby, OR 97013",Oregon,Clackamas,45.261,-122.692,2
-Pregnancy Care Center,"714 SE 8th St
-Grants Pass, OR 97526",Oregon,Josephine,42.4341,-123.327,2
-Pregnancy and Parenting Center,"1525 12th St, Ste G
-Florence, OR 97439",Oregon,Lane,43.9776,-124.105,2
-Options Pregnancy Resource Centers,"1800 16th Ave SE
-Albany, OR 97322",Oregon,Linn,44.6264,-123.083,2
-Obria Medical Clinics: Pregnancy Alternatives Center,"136 W Vine St
-Lebanon, OR 97355",Oregon,Linn,44.5407,-122.909,2
-Next Step Pregnancy and Relationship Center,"902 D Ave
-La Grande, OR 97850",Oregon,Union,45.3149,-118.098,2
-Hope Clinic for Women,"1425 W Harvard Ave
-Roseburg, OR 97471",Oregon,Douglas,43.2137,-123.365,2
-Michael the Archangel: A Salem Pregnancy Resource Center,"1725 Capitol St NE
-Salem, OR 97301",Oregon,Marion,44.9537,-123.021,2
-Hope Pregnancy Clinic,"2630 Market St NE
-Salem, OR 97301",Oregon,Marion,44.9492,-123.003,2
-HOPE Pregnancy Center,"17 SW 6th St
-Ontario, OR 97914",Oregon,Malheur,44.0277,-116.971,2
 Obria Medical Clinics - Oregon City,"333 Warner Milne St, Ste C
 Oregon City, OR 97045",Oregon,Clackamas,45.3373,-122.594,2
-Dove Medical,"487 E 11th Ave
-Eugene, OR 97401",Oregon,Lane,44.0479,-123.085,2
-Pacific Pregnancy Clinic,"1250 Thompson Rd
-Coos Bay, OR 97420",Oregon,Coos,43.3848,-124.227,2
+Planned Parenthood- Milwaukie- Oak Grove Health Center,14411 SE McLoughlin Blvd,Oregon,Clackamas,45.4578939,-122.6398462,4
+Coast Pregnancy Clinic,"279 6th St
+Astoria, OR 97103",Oregon,Clatsop,46.1893,-123.837,2
 Columbia Pregnancy Center,"970 Columbia Blvd
 Saint Helens, OR 97051",Oregon,Colombia,45.8636,-122.808,2
 Columbia Pregnancy Center,"305 W 3rd St, Ste C
 Rainier, OR 97048",Oregon,Columbia,46.0887,-122.939,2
-Hope Medical Clinic,"3206 W 6th St, Ste 200
-The Dalles, OR 97058",Oregon,Wasco,45.6212,-121.213,2
+Pacific Pregnancy Clinic,"1250 Thompson Rd
+Coos Bay, OR 97420",Oregon,Coos,43.3848,-124.227,2
+Pregnancy Resource Centers of Central Oregon,"346 NW Deer St
+Prineville, OR 97754",Oregon,Crook,44.3033,-120.851,2
+Pregnancy Resource Centers of Central Oregon,"950 SW Veterans Way
+Redmond, OR 97756",Oregon,Deschutes,44.2674,-121.179,2
+Pregnancy Resource Centers of Central Oregon,"369 NE Revere Ave, #102
+Bend, OR 97701",Oregon,Deschutes,44.0673,-121.301,2
+Planned Parenthood- Bend Health Center,2330 NE Division St.,Oregon,Deschutes,44.07287053,-121.3057603,4
+Hope Clinic for Women,"1425 W Harvard Ave
+Roseburg, OR 97471",Oregon,Douglas,43.2137,-123.365,2
 Hope Medical Clinic,"1942 12th St
 Hood River, OR 97031",Oregon,Hood River,45.6941,-121.525,2
-Coast Pregnancy Clinic,"279 6th St
-Astoria, OR 97103",Oregon,Clatsop,46.1893,-123.837,2
-Birthright of Salem,"1880 Lancaster Dr NE, Ste 124
-Salem, OR 97305",Oregon,Marion,44.9521,-122.983,2
-Birthright of Hillsboro Oregon,"232 NE Lincoln St, Ste F
-Hillsboro, OR 97123",Oregon,Washington,45.5235,-122.987,2
+The Pregnancy Center,"2019 Aero Way, Ste 103
+Medford, OR 97504",Oregon,Jackson,42.3664,-122.861,2
+Planned Parenthood- Ashland Health Center,1532 Siskiyou Blvd.,Oregon,Jackson,42.18393351,-122.6889682,4
+Pregnancy Center of the Illinois Valley,"331 E Cottage Park Dr, Ste 4 
+Cave Junction, OR 97523",Oregon,Josephine,42.174,-123.643,2
+Pregnancy Care Center,"714 SE 8th St
+Grants Pass, OR 97526",Oregon,Josephine,42.4341,-123.327,2
+Pregnancy Hope Center,"2421 Washburn Way, Ste A
+Klamath Falls, OR 97603",Oregon,Klamath,42.2058,-121.756,2
+Pregnancy and Parenting Center,"1525 12th St, Ste G
+Florence, OR 97439",Oregon,Lane,43.9776,-124.105,2
+Dove Medical,"487 E 11th Ave
+Eugene, OR 97401",Oregon,Lane,44.0479,-123.085,2
 1st Way of Eugene,"1162 B St, #213
 Springfield, OR 97477",Oregon,Lane,45.2953,-122.337,2
+Planned Parenthood- Eugene- Springfield Health Center,3579 Franklin Blvd,Oregon,Lane,44.0449299,-123.0408413,4
+Sweet Home Pregnancy Care Center,"1344 Main St Sweet Home, OR 97386",Oregon,Linn,44.3984,-122.728,1
+Options Pregnancy Resource Centers,"1800 16th Ave SE
+Albany, OR 97322",Oregon,Linn,44.6264,-123.083,2
+Obria Medical Clinics: Pregnancy Alternatives Center,"136 W Vine St
+Lebanon, OR 97355",Oregon,Linn,44.5407,-122.909,2
+HOPE Pregnancy Center,"17 SW 6th St
+Ontario, OR 97914",Oregon,Malheur,44.0277,-116.971,2
+St Germaine Pregnancy Center,"3885 Wolverine St NE, Ste A2
+Salem, OR 97305",Oregon,Marion,44.9583,-122.985,2
+Michael the Archangel: A Salem Pregnancy Resource Center,"1725 Capitol St NE
+Salem, OR 97301",Oregon,Marion,44.9537,-123.021,2
+Hope Pregnancy Clinic,"2630 Market St NE
+Salem, OR 97301",Oregon,Marion,44.9492,-123.003,2
+Birthright of Salem,"1880 Lancaster Dr NE, Ste 124
+Salem, OR 97305",Oregon,Marion,44.9521,-122.983,2
+Planned Parenthood- Salem Health Center,3825 Wolverine St.,Oregon,Marion,44.95843,-122.985943,4
+Pregnancy Resource Center,"5117 SE Powell Blvd, #3
+Portland, OR 97206",Oregon,Multnomah,45.4977,-122.609,2
+Pregnancy Resource Center,"104 NW 11th St
+Gresham, OR 97030",Oregon,Multnomah,45.5048,-122.433,2
+Lovejoy Surgery Center,933 NW 25th Ave,Oregon,Multnomah,45.52939766,-122.702759,4
+OHSU Center for Women's Health,808 SW Campus Dr,Oregon,Multnomah,45.49974,-122.68447,4
 Life Line,"1031 Germania Rd Frenchville, PA 16335",Pennsylvania,Crawford,41.0831,-78.2107,1
 Pregnancy Center of Meadville,"657 Pine St Meadville, PA 16335",Pennsylvania,Crawford,41.6329,-80.1394,1
 "Heartbeat Community Services, Inc","705 E Sunbury St Millerstown, PA 17062",Pennsylvania,Perry,40.5532,-77.148,1
@@ -5192,16 +5183,21 @@ Capital Care of Toledo***,1160 W Sylvania Ave,Ohio,Lucas,41.69260767,-83.569171,
 Trust Women South Women's Health Center Oklahoma City***,1240 SW 44th St,Oklahoma,Oklahoma,35.4206604,-97.5667388,3
 Reproductive Services- OK***,6136 E 32nd Pl,Oklahoma,Tulsa,36.11599333,-95.90752497,3
 Planned Parenthood- NW OKC Health Center*,6112 NW 63rd St,Oklahoma,Oklahoma,35.53676759,-97.62196965,3
-Planned Parenthood- Ashland Health Center,1532 Siskiyou Blvd.,Oregon,Jackson,42.18393351,-122.6889682,4
-Planned Parenthood- Beaverton Health Center,12220 SW First St,Oregon,Washington,34.75772898,-86.63692574,4
-Planned Parenthood- Bend Health Center,2330 NE Division St.,Oregon,Deschutes,44.07287053,-121.3057603,4
-Planned Parenthood- Eugene- Springfield Health Center,3579 Franklin Blvd,Oregon,Lane,44.0449299,-123.0408413,4
-Planned Parenthood- Milwaukie- Oak Grove Health Center,14411 SE McLoughlin Blvd,Oregon,Clackamas,45.4578939,-122.6398462,4
-Lovejoy Surgery Center,933 NW 25th Ave,Oregon,Multnomah,45.52939766,-122.702759,4
-OHSU Center for Women's Health,808 SW Campus Dr,Oregon,Multnomah,34.75772898,-86.63692574,4
 Planned Parenthood- NE Portland Health Center,3727 NE Martin Luther King Jr. Boulevard,Oregon,Multnomah,45.5498649,-122.661821,4
-Planned Parenthood- SE Portland Health Center,3231 SE 50th,Oregon,Multnomah,34.75772898,-86.63692574,4
-Planned Parenthood- Salem Health Center,3825 Wolverine St.,Oregon,Marion,34.75772898,-86.63692574,4
+Planned Parenthood- SE Portland Health Center,3231 SE 50th,Oregon,Multnomah,45.499131,-122.611435,4
+Lilith Clinic,"511 SW 10th Avenue, Suite 904",Oregon,Multnomah,45.52120782,-122.6817272,4
+TruCare Pregnancy Clinic,"140 SW 11th St
+Hermiston, OR 97838",Oregon,Umatilla,45.8403,-119.293,2
+Hope With Options Pregnancy Care Center,"311 SE Dorion Ave Pendleton, OR 97801",Oregon,Umatilla,45.6727,-118.784,2
+Next Step Pregnancy and Relationship Center,"902 D Ave
+La Grande, OR 97850",Oregon,Union,45.3149,-118.098,2
+Hope Medical Clinic,"3206 W 6th St, Ste 200
+The Dalles, OR 97058",Oregon,Wasco,45.6212,-121.213,2
+Pregnancy Resource Center,"4975 SW Watson
+Beaverton, OR 97005",Oregon,Washington,45.4838,-122.807,2
+Birthright of Hillsboro Oregon,"232 NE Lincoln St, Ste F
+Hillsboro, OR 97123",Oregon,Washington,45.5235,-122.987,2
+Planned Parenthood- Beaverton Health Center,12220 SW First St,Oregon,Washington,45.48596,-122.802286,4
 Planned Parenthood- Allentown Health Center,29 North Ninth Street,Pennsylvania,Lehigh,34.75772898,-86.63692574,4
 Allentown Women's Center,31 S Commerce Way,Pennsylvania,Northampton,40.67343035,-75.3741922,4
 Delaware County Women's Center,1 Medical Center Blvd.,Pennsylvania,Delaware,34.75772898,-86.63692574,4
@@ -5302,10 +5298,12 @@ Planned Parenthood- Tacoma Health Center,1515 Martin Luther King Jr. Way,Washing
 Planned Parenthood- Vancouver Health Center,11516 SE Mill Plain Blvd,Washington,Clark,45.6209479,-122.5648976,4
 Planned Parenthood- Walla Walla Health Center,828 S. First Ave.,Washington,Walla Walla,34.75772898,-86.63692574,4
 Planned Parenthood- Yakima Health Center,1117 Tieton Dr.,Washington,Yakima,46.59259,-120.5240733,4
-Planned Parenthood- Carol Whitehill Moses Center,1225 4th St. NE,Washington D.C.,Washington D.C.,38.90626915,-77.00025652,4
-Washington Surgi-Center,2112 F St NW,Washington D.C.,Washington D.C.,38.897199,-77.0472891,4
+Planned Parenthood- Carol Whitehill Moses Center,1225 4th St. NE,District of Columbia,Washington D.C.,38.90626915,-77.00025652,4
+Washington Surgi-Center,2112 F St NW,District of Columbia,Washington D.C.,38.897199,-77.0472891,4
 Women's Health Care of West Virginia***,510 Washington Street,West Virginia,Kanawha,38.3639036,-81.6426163,3
 Planned Parenthood- Madison East Clinic***,3706 Orin Rd,Wisconsin,Dane,43.12339115,-89.32420377,3
 Affiliated Medical Services***,1428 N. Farwell Avenue,Wisconsin,Milwaukee,43.0484606,-87.89621494,3
 Planned Parenthood- Milwaukee- Water Street Health Center***,435 S. Water Street,Wisconsin,Milwaukee,43.02721121,-87.90594193,3
 Emerg-A-Care of Jackson Hole,455 W Broadway,Wyoming,Teton,34.75772898,-86.63692574,3
+Vine Medical Pregnancy Care Clinic,"1218 3rd St
+Lafayette, OR 97127",Oregon,Yamhill,45.2426,-123.105,2
