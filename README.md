@@ -29,7 +29,7 @@ The data is organized into databases as followed:
 
 
 # Machine Learning Model
-We will begin our machine learning using the unsupervised learning method of clustering using K-means. This will help us determine the states that are adaquate and not adaquate.  Than we will use a logistic regression to determine if a county needs additional health clinics or if it has adequate access. 
+We will begin our machine learning using the unsupervised learning method of clustering using K-means. This will help us determine the states that are adaquate and not adaquate.  Than we will use a multivariate regression to determine if a county needs additional health clinics or if it has adequate access. Using standard scaler to determine the weight of the dependant variables.  
 
 
 
