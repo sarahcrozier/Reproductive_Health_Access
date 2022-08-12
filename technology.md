@@ -10,7 +10,7 @@ We will use Scikit-learn's LabelEncoder module for the encoding step of prepoces
 
 Support Vector Machine (SVM) is a binary classifier, categorizing samples into one of two categories. We will use SVM to determine whether a county is a well served area or not. If it is not, it is an opportunity county to deploy a Reproductive Health Clinic. Technologies used for SVM include, NumPy, Pandas, and Scikit-learn. 
 
-Once the data has been clustered, we will use linear regression to identify opportunity for new clinics by county across the US.
+Once the data has been clustered, we will use logistic regression to identify opportunity for new clinics by county across the US.
 
 ## Dashboard
 We will use Tableau to visualize our data and create an interactive dashboard that displays counties in need of a reproductive health clinic. The county information supplied to the user will also include House Representative contact information and a call to action to reach out to local Representatives to demand change. Our dashboard will allow users to download data for their region to share with their Representatives.
