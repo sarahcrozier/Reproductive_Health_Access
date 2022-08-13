@@ -7,7 +7,7 @@
 * [Data](#Data)
 * [Machine Learning](#Machine_Learning)
 * [Storyboard](#Storyboard)
-* [Roadmap](#Roadmap)
+* [Working Agreement](#Working)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
@@ -20,13 +20,13 @@
 
 The purpose of this project is to identify the current state of access to reproductive health available in the United States. 
 
-## Key Questions
+### Key Questions
 * Which states have adequate access to reproductive health?
 * Which states lack access to reproductive health?
 * What are current locations that would benifit from reproductive health centers to address the lack of access to care?
 
 # <a name='Data'></a>Data
-## Sources
+### Sources
 
 * https://crisispregnancycentermap.com/
 
@@ -50,7 +50,7 @@ The data is organized into databases as followed:
 ✓ Description of the analysis phase of the project
 
 
-## <a name='Usage'></a>Machine Learning
+# <a name='Usage'></a>Machine Learning
 We will begin our machine learning using the unsupervised learning method of clustering using K-means. This will help us determine the states that are adaquate and not adaquate.  Than we will use a logistic regression to determine if a county needs additional health clinics or if it has adequate access. 
 
 ✓ Description of preliminary data preprocessing
@@ -61,13 +61,13 @@ We will begin our machine learning using the unsupervised learning method of clu
 
 ✓ Explanation of model choice, including limitations and benefits
 
-## <a name='Usage'></a>Storyboard
+# <a name='Storyboard'></a>Storyboard
 ✓ Description of the tool(s) that will be used to create final dashboard 
 
 ✓ Description of interactive element(s) 
 
 
-## <a name='Usage'></a>Working Agreements
+# <a name='Working'></a>Working Agreements
 * We agree to be kind and professional.
 * We will meet via zoom 30 minutes before each class.
 * We will schedule additional meetings as needed, included but not limited to Sunday work sessions from 2-5 pm. 
