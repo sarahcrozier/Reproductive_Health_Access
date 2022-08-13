@@ -8,13 +8,13 @@
 * [Machine Learning](#Machine_Learning)
 * [Storyboard](#Storyboard)
 * [Working Agreement](#Working)
+* [Additional Resources](#AdditionalResources)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
 	autoSave=true
 	/vscode-markdown-toc-config -->
 <!-- /vscode-markdown-toc -->
-
 
 # <a name='Overview'></a>Overview
 
@@ -66,6 +66,7 @@ We will begin our machine learning using the unsupervised learning method of clu
 
 ✓ Description of interactive element(s) 
 
+[Wire Frame for Storyboard](https://docs.google.com/presentation/d/1fNeITHeLO5w1hP_-IijeZu9O0GGq6SPZkKJ5YKQ_M7E/edit#slide=id.p)
 
 # <a name='Working'></a>Working Agreements
 * We agree to be kind and professional.
@@ -77,4 +78,8 @@ We will begin our machine learning using the unsupervised learning method of clu
 * We agree to push our work to our branch to allow others to review our work. 
 * We will update Jamboard to show the flow of our work.
 
+# <a name='AdditionalResources'></a>Additional Resources
+[Group Google Shared Drive ](https://drive.google.com/drive/u/0/folders/1aURcy_XHSeTBuxBs2TyEmiRUIgIQ5zvV)
+
+[Google Slides Presentation](https://docs.google.com/presentation/d/1kcj6kuOmC0LJDoqfipSAFfxEbHqrjBkker1FSNAJY7w/edit#slide=id.p)
 
