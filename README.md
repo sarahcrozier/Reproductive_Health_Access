@@ -9,17 +9,28 @@ The purpose of this project is to identify the current state of access to reprod
 * What are current locations that would benifit from reproductive health centers to address the lack of access to care?
 
 ## Data Sources
+
+
 * https://crisispregnancycentermap.com/
 
     Data will be scraped to identify centers that do not actually provide any reproductive health services. 
 
 * https://www.kff.org/state-category/womens-health/
 
-    Data pertaining to indicators of health access to care, insurance coverage, federal poverty levels, community health clinics.
+    Data pertaining to indicators of health access to care, including insurance status, preventitive care, abortion access, teen pregnancy, maternal mortality.
+
 
 * https://www.plannedparenthood.org/
+    
+    Data pertaining to current planned parenthood clinics.
 
-    Data pertaining to current planned parenthood clinics. 
+The data is organized into databases as followed: 
+![ERD](Resources/images/Reproductive_Health_ERD.png)*Reproductive Health ERD*
+
+
+# Machine Learning Model
+We will begin our machine learning using the unsupervised learning method of clustering using K-means. This will help us determine the states that are adaquate and not adaquate.  Than we will use a multivariate regression to determine if a county needs additional health clinics or if it has adequate access. Using standard scaler to determine the weight of the dependant variables.  
+
 
 
 ## Working Agreements 
@@ -30,5 +41,6 @@ The purpose of this project is to identify the current state of access to reprod
 * We will communicate non-urgent issues via Slack
 * We will save documents to our shared Google drive. 
 * We agree to push our work to our branch to allow others to review our work. 
+* We will update Jamboard to show the flow of our work.
 
 
