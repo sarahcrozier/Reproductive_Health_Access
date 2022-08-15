@@ -1,0 +1,52 @@
+State,no_services,few_services,restricted_services,full_service
+Alabama,8,44,5,0
+Alaska,3,7,0,4
+Arizona,19,28,7,0
+Arkansas,9,31,3,0
+California,51,97,0,124
+Colorado,17,34,0,15
+Connecticut,12,8,0,18
+Delaware,10,0,0,2
+District of Columbia,2,0,0,2
+Florida,22,129,0,48
+Georgia,14,74,0,10
+Hawaii,0,6,0,2
+Idaho,9,10,0,3
+Illinois,25,72,0,25
+Indiana,22,74,0,6
+Iowa,15,28,0,6
+Kansas,18,20,0,4
+Kentucky,18,37,3,0
+Louisiana,1,31,3,0
+Maine,4,7,0,19
+Maryland,8,32,0,18
+Massachusetts,16,13,0,9
+Michigan,39,66,0,24
+Minnesota,27,46,0,5
+Mississippi,8,21,1,0
+Missouri,22,51,3,0
+Montana,4,13,0,5
+Nebraska,6,14,0,3
+Nevada,1,6,0,7
+New Hampshire,4,10,0,5
+New Jersey,11,28,0,31
+New Mexico,7,17,0,5
+New York,46,46,0,64
+North Carolina,16,73,0,13
+North Dakota,1,6,1,0
+Ohio,31,93,9,0
+Oklahoma,2,45,3,0
+Oregon,1,37,0,11
+Pennsylvania,41,119,0,15
+Rhode Island,0,3,0,2
+South Carolina,1,34,2,0
+South Dakota,0,11,1,0
+Tennessee,2,58,8,0
+Texas,6,192,19,0
+Utah,1,7,2,0
+Vermont,0,7,0,6
+Virginia,3,51,0,12
+Washington,0,45,0,33
+West Virginia,2,15,1,0
+Wisconsin,5,53,3,0
+Wyoming,0,12,1,0

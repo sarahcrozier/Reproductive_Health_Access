@@ -8,9 +8,8 @@ Postgres is the database we intend to use for clean data storage. We will use Py
 ## Machine Learning
 We will use Scikit-learn's LabelEncoder module for the encoding step of prepocessing to convert categorical and text data into numerical data so that it is usable for machine learning models. For the scaling step of preprocessing, we'll use Scikit-learn's StandardScaler module.
 
-Support Vector Machine (SVM) is a binary classifier, categorizing samples into one of two categories. We will use SVM to determine whether a county is a well served area or not. If it is not, it is an opportunity county to deploy a Reproductive Health Clinic. Technologies used for SVM include, NumPy, Pandas, and Scikit-learn. 
-
-Once the data has been clustered, we will use logistic regression to identify opportunity for new clinics by county across the US.
+To cluster we will use SciKit-Learn's K-means to cluster and use plotly to visualize results. After the adequate cluster is identified, it will be used for the multivariate regression 
+with SciKit-Learn's Train Test Split and plotly for futher visualization.
 
 ## Dashboard
 We will use Tableau to visualize our data and create an interactive dashboard that displays counties in need of a reproductive health clinic. The county information supplied to the user will also include House Representative contact information and a call to action to reach out to local Representatives to demand change. Our dashboard will allow users to download data for their region to share with their Representatives.
