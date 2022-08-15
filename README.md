@@ -36,7 +36,6 @@ The purpose of this project is to identify the current state of access to reprod
 
     Data pertaining to indicators of health access to care, including insurance status, preventitive care, abortion access, teen pregnancy, maternal mortality.
 
-
 * https://www.plannedparenthood.org/
     
     Data pertaining to current planned parenthood clinics.
@@ -46,7 +45,8 @@ The data is organized into databases as followed:
 ![ERD](Resources/images/Reproductive_Health_ERD.png)*Reproductive Health ERD*
 
 ## Analysis
-✓ Description of the data exploration phase of the project 
+✓ Description of the data exploration phase of the project
+
 ✓ Description of the analysis phase of the project
 
 
