@@ -35,7 +35,7 @@ CREATE TABLE clinics (
 );
 
 SELECT state_metrics.state,
-    state_metrics.Abortion_Status,
+	state_metrics.Abortion_Status,
     state_metrics.Total_Community_Health_Centers,
     state_metrics.Uninsured,
     state_metrics.Total_Insured,
@@ -51,11 +51,41 @@ SELECT state_metrics.state,
     state_metrics.Female_Sterilization,
     state_metrics.Cost_Sharing,
 	state_metrics.Teen_Births,
-	abortions.state,
     abortions.Percent_of_all_US_abortions,
     abortions.Percent_residents_traveling_outside_state,
     abortions.abortions_occurring_state,
     abortions.abortions_residence_state
+INTO states_and_abortions
 FROM state_metrics
-RIGHT JOIN abortions
+INNER JOIN abortions
 ON state_metrics.state = abortions.state;
+
+SELECT states_and_abortions.state,
+	states_and_abortions.Abortion_Status,
+    states_and_abortions.Total_Community_Health_Centers,
+    states_and_abortions.Uninsured,
+    states_and_abortions.Total_Insured,
+    states_and_abortions.Maternal_Mortality,
+    states_and_abortions.Population,
+    states_and_abortions.No_Doctor_Visits,
+    states_and_abortions.Mammogram,
+    states_and_abortions.No_Provider,
+    states_and_abortions.Pap_Smear,
+    states_and_abortions.Prescription_Contraception,
+    states_and_abortions.OTC_Methods,
+    states_and_abortions.Male_Sterilization,
+    states_and_abortions.Female_Sterilization,
+    states_and_abortions.Cost_Sharing,
+	states_and_abortions.Teen_Births,
+    states_and_abortions.Percent_of_all_US_abortions,
+    states_and_abortions.Percent_residents_traveling_outside_state,
+    states_and_abortions.abortions_occurring_state,
+    states_and_abortions.abortions_residence_state,
+	clinics.no_services,
+	clinics.few_services,
+	clinics.restricted_services,
+	clinics.full_service
+INTO final_table
+FROM states_and_abortions
+INNER JOIN clinics
+ON states_and_abortions.state = clinics.state;
