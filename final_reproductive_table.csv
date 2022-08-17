@@ -1,0 +1,52 @@
+state,abortion_status,total_community_health_centers,uninsured,total_insured,maternal_mortality,population,no_doctor_visits,mammogram,no_provider,pap_smear,prescription_contraception,otc_methods,male_sterilization,female_sterilization,cost_sharing,teen_births,percent_of_all_us_abortions,percent_residents_traveling_outside_state,abortions_occurring_state,abortions_residence_state,no_services,few_services,restricted_services,full_service
+Alabama,Abortion Ban In Effect,17,165700,1462900,109.285825801863,4767100,0.12,0.74,0.13,0.74,No,No,No,No,No,24.8,0.6,47,5700,9060,8,44,5,0
+Alaska,Abortion Available,27,29200,207200,84.4862181856585,701700,0.12,0.63,0.23,0.65,No,No,No,No,No,17.7,0.1,7,1240,1320,3,7,0,4
+Arizona,Status of pre-Roe ban unclear,23,309000,2132900,87.0729203217799,7098000,0.11,0.68,0.19,0.69,Yes,No,No,No,No,16.6,1.4,6,13320,13820,19,28,7,0
+Arkansas,Abortion Ban In Effect,12,83800,865900,124.819154066551,2922500,0.12,0.7,0.13,0.68,Yes,No,No,No,No,27.8,0.3,37,3250,4510,9,31,3,0
+California,Abortion Available,175,1034300,11885100,32.123047929967,38642700,0.09,0.68,0.19,0.74,Yes,Yes,No,Yes,Yes,11,16.6,0,154060,152400,51,97,0,124
+Colorado,Abortion Available,19,204300,1758600,43.9067226070836,5611800,0.11,0.67,0.17,0.69,Yes,No,No,No,No,12.5,1.4,1,13420,11830,17,34,0,15
+Connecticut,Abortion Available,16,58100,1038000,53.7955768081291,3453300,0.07,0.78,0.1,0.8,Yes,Yes,No,Yes,Yes,7.6,1.2,6,11170,11460,12,8,0,18
+Delaware,Abortion Available,3,24800,295800,48.1139337952271,940300,0.09,0.74,0.12,0.75,Yes,Yes,No,Yes,Yes,14.6,0.2,44,1830,2870,10,0,0,2
+District of Columbia,Abortion Available,8,7600,251600,78.8821275636691,671300,0.06,0.74,0.15,0.8,Yes,Yes,No,Yes,Yes,15.6,1,45,9410,5010,2,0,0,2
+Florida,"Abortion available, pre-viability gestational limit in effect",47,1011800,6381600,67.2482126760496,20992000,0.14,0.74,0.2,0.73,No,No,No,No,No,15.2,8.3,1,77400,73830,22,129,0,48
+Georgia,6 week LMP ban currently in effect,35,586000,3356300,88.1827014933904,10294000,0.16,0.71,0.17,0.73,Yes,No,No,No,No,18.2,4.5,5,41620,36470,14,74,0,10
+Hawaii,Abortion Available,14,18900,379800,44.3458980044346,1343000,0.06,0.78,0.1,0.73,Yes,No,No,No,No,13,0.3,2,3130,3120,0,6,0,2
+Idaho,"State abortion ban/restriction not yet implemented, abortion currently available",14,78900,535000,51.0843821111782,1750900,0.1,0.65,0.15,0.64,No,No,No,No,No,14.6,0.2,26,1690,2130,9,10,0,3
+Illinois,Abortion Available,45,328700,3731700,40.5107353448664,12362300,0.1,0.74,0.15,0.73,Yes,Yes,Yes,Yes,Yes,13.6,5.7,1,52780,42250,25,72,0,25
+Indiana,"Abortion available, pre-viability gestational limit in effect",27,131100,1957600,86.496387503816,6511800,0.1,0.69,0.12,0.69,No,No,No,No,No,18.7,0.8,31,7880,10810,22,74,0,6
+Iowa,"Abortion available, pre-viability gestational limit in effect",14,72800,927300,38.7661294788725,3060200,0.07,0.76,0.1,0.7,Yes,No,No,No,No,13.3,0.4,12,3510,3510,15,28,0,6
+Kansas,"Abortion available, pre-viability gestational limit in effect",19,93200,827300,66.9071445194322,2811200,0.1,0.69,0.13,0.68,No,No,No,No,No,18.1,0.9,4,8180,4120,18,20,0,4
+Kentucky,Abortion Ban In Effect,25,101400,1305500,121.932337230007,4319300,0.09,0.71,0.12,0.72,No,No,No,No,No,23.8,0.4,39,4080,5690,18,37,3,0
+Louisiana,Abortion Ban In Effect,36,133400,1376800,97.6835054423667,4498600,0.09,0.78,0.12,0.75,No,No,No,No,No,25.7,0.8,21,7360,7760,1,31,3,0
+Maine,Abortion Available,18,24400,398100,25.9987867232862,1302300,0.08,0.77,0.08,0.73,Yes,No,No,Yes,Yes,10.6,0.3,5,2370,2370,4,7,0,19
+Maryland,Abortion Available,17,91400,1838500,56.8894594042653,5875500,0.08,0.75,0.1,0.76,Yes,Yes,Yes,No,Yes,13.1,3.3,17,30750,29590,8,32,0,18
+Massachusetts,Abortion Available,37,75000,2146900,45.1616788101403,6650800,0.06,0.8,0.07,0.77,Yes,Yes,No,Yes,Yes,6.1,1.8,6,17060,17460,16,13,0,9
+Michigan,Abortion Available,39,126300,2918800,60.5338509137729,9765600,0.08,0.74,0.08,0.73,Yes,No,No,No,No,13.5,3.4,1,31500,30150,39,66,0,24
+Minnesota,Abortion Available,16,107600,1650900,29.9481424270605,5514800,0.08,0.73,0.15,0.71,No,No,No,No,No,9.1,1.2,3,11060,10380,27,46,0,5
+Mississippi,Abortion Ban In Effect,20,117200,884200,93.0285005497139,2867100,0.13,0.71,0.13,0.77,No,No,No,No,No,27.9,0.4,44,3560,5760,8,21,1,0
+Missouri,Abortion Ban In Effect,28,202800,1773100,77.9389478242044,5939900,0.12,0.71,0.15,0.71,Yes,No,No,No,No,18.8,0,99,170,11710,22,51,3,0
+Montana,Abortion Available,14,26300,300200,74.1358539523677,1039400,0.09,0.68,0.17,0.67,Yes,No,No,No,No,13.2,0.2,3,1630,1510,4,13,0,5
+Nebraska,"Abortion available, pre-viability gestational limit in effect",7,53000,558300,86.4517722613314,1873600,0.09,0.7,0.12,0.69,No,No,No,No,No,15.1,0.2,8,2200,2020,6,14,0,3
+Nevada,Abortion Available,8,116600,939300,59.4300656702226,3029700,0.12,0.69,0.24,0.69,Yes,Yes,No,Yes,Yes,16.8,1.2,4,11010,10870,1,6,0,7
+New Hampshire,Abortion Available,10,19300,379800,16.9620897294547,1314000,0.09,0.74,0.07,0.72,Yes,No,No,No,Yes,6.6,0.2,23,2050,2150,4,10,0,5
+New Jersey,Abortion Available,23,208000,2620400,73.5038895808237,8699400,0.1,0.73,0.13,0.78,Yes,Yes,Yes,Yes,Yes,9.2,5.2,6,48830,48390,11,28,0,31
+New Mexico,Abortion Available,16,83500,589200,45.6558462311099,2041400,0.09,0.65,0.19,0.69,Yes,Yes,Yes,Yes,Yes,21.9,0.6,8,5880,3950,7,17,0,5
+New York,Abortion Available,63,258400,5854500,63.5336154926483,18908300,0.08,0.77,0.15,0.78,Yes,Yes,Yes,Yes,Yes,10,11.9,1,110360,105990,46,46,0,64
+North Carolina,Abortion Available,39,397100,3231100,62.5374796539022,10139700,0.12,0.75,0.14,0.75,Yes,No,No,No,No,17.3,3.4,2,31850,27030,16,73,0,13
+North Dakota,"State abortion ban/restriction not yet implemented, abortion currently available",4,17900,212500,69.589422407794,731000,0.07,0.75,0.19,0.66,No,No,No,No,No,13.7,0.1,13,1170,960,1,6,1,0
+Ohio,6 week LMP ban currently in effect,51,241800,3353800,65.7940568615461,11351500,0.09,0.72,0.13,0.71,No,No,No,No,No,17.6,2.3,10,20990,21920,31,93,9,0
+Oklahoma,Abortion Ban In Effect,21,241200,1135800,75.5937257207652,3826900,0.15,0.68,0.16,0.67,No,No,No,No,No,25,1,5,9690,8330,2,45,3,0
+Oregon,Abortion Available,30,62600,1260900,45.2034153691612,4128900,0.11,0.72,0.14,0.72,Yes,Yes,Yes,Yes,Yes,10.1,0.9,5,8560,8110,1,37,0,11
+Pennsylvania,Abortion Available,42,230100,3755700,45.9091152548338,12377600,0.08,0.74,0.09,0.74,No,No,No,No,No,12.6,3.5,14,32260,34950,41,119,0,15
+Rhode Island,Abortion Available,8,12700,325800,49.5000495000495,1017100,0.07,0.81,0.08,0.78,Yes,No,No,No,No,9.4,0.3,17,2760,2830,0,3,0,2
+South Carolina,6 week LMP ban currently in effect,23,186400,1530800,87.9649576332041,4984200,0.12,0.76,0.14,0.71,No,No,No,No,No,19.3,0.6,57,5300,11830,1,34,2,0
+South Dakota,Abortion Ban In Effect,4,24400,239200,63.8686131386861,851300,0.07,0.75,0.13,0.7,No,No,No,No,No,18.7,0,84,130,680,0,11,1,0
+Tennessee,6 week LMP ban currently in effect,29,283100,2068800,105.478529400552,6640900,0.12,0.73,0.14,0.72,No,No,No,No,No,23.3,1.2,23,10850,10450,2,58,8,0
+Texas,Abortion Ban In Effect,72,1929400,8727300,69.8009180042913,28286200,0.17,0.69,0.25,0.7,No,No,No,No,No,22.4,6.2,8,58020,61500,6,192,19,0
+Utah,"Abortion ban temporarily blocked, abortion available",13,108800,932000,37.1974968272723,3154100,0.1,0.64,0.17,0.64,No,No,No,No,No,10.8,0.3,8,3120,3220,1,7,2,0
+Vermont,Abortion Available,11,5600,176300,19.4817845314631,598100,0.07,0.68,0.08,0.7,Yes,No,Yes,Yes,Yes,7,0.1,7,1230,1100,0,7,0,6
+Virginia,Abortion Available,26,211200,2710400,68.6023071483604,8185100,0.1,0.75,0.15,0.75,Yes,No,No,Yes,Yes,13.1,2,25,18740,23390,3,51,0,12
+Washington,Abortion Available,27,203300,2369200,62.5857545194136,7423900,0.09,0.68,0.16,0.68,Yes,Yes,Yes,Yes,Yes,11.3,1.9,5,17980,17910,0,45,0,33
+West Virginia,"Abortion ban temporarily blocked, abortion available",28,31100,498100,69.2720660393696,1739000,0.1,0.74,0.11,0.72,Yes,No,No,No,No,22.5,0.1,52,990,1780,2,15,1,0
+Wisconsin,Status of pre-Roe ban unclear,16,105600,1783100,28.0555830610291,5677100,0.08,0.75,0.09,0.72,Yes,No,No,No,No,11.5,0.7,17,6960,8290,5,53,3,0
+Wyoming,"Abortion ban temporarily blocked, abortion available",6,19100,160600,48.9556135770235,562700,0.12,0.64,0.2,0.64,No,No,No,No,No,18.1,0,88,100,700,0,12,1,0
