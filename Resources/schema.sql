@@ -15,7 +15,8 @@ CREATE TABLE State_Metrics (
     Male_Sterilization varchar NOT NULL,
     Female_Sterilization varchar NOT NULL,
     Cost_Sharing varchar NOT NULL,
-	Teen_Births float NOT NULL
+	Teen_Births float NOT NULL,
+	Poverty_under_200 float NOT NULL
 );
 
 CREATE TABLE abortions (
@@ -34,6 +35,7 @@ CREATE TABLE clinics (
 	full_service int NOT NULL
 );
 
+
 SELECT state_metrics.state,
 	state_metrics.Abortion_Status,
     state_metrics.Total_Community_Health_Centers,
@@ -51,6 +53,7 @@ SELECT state_metrics.state,
     state_metrics.Female_Sterilization,
     state_metrics.Cost_Sharing,
 	state_metrics.Teen_Births,
+	state_metrics.poverty_under_200,
     abortions.Percent_of_all_US_abortions,
     abortions.Percent_residents_traveling_outside_state,
     abortions.abortions_occurring_state,
@@ -77,6 +80,7 @@ SELECT states_and_abortions.state,
     states_and_abortions.Female_Sterilization,
     states_and_abortions.Cost_Sharing,
 	states_and_abortions.Teen_Births,
+	states_and_abortions.poverty_under_200,
     states_and_abortions.Percent_of_all_US_abortions,
     states_and_abortions.Percent_residents_traveling_outside_state,
     states_and_abortions.abortions_occurring_state,
