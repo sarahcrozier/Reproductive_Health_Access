@@ -45,26 +45,31 @@ The data is organized into databases as followed:
 ![ERD](Resources/images/Reproductive_Health_ERD.png)*Reproductive Health ERD*
 
 ## Analysis
-✓ Description of the data exploration phase of the project
+✓ Data Exploration:
 
-✓ Description of the analysis phase of the project
+✓ Data Analysis:
 
 
 # <a name='Usage'></a>Machine Learning
 We will begin our machine learning using the unsupervised learning method of clustering using K-means. This will help us determine the states that are adaquate and not adaquate.  Than we will use a logistic regression to determine if a county needs additional health clinics or if it has adequate access. 
 
-✓ Description of preliminary data preprocessing
+✓ Preliminary Data:
 
-✓ Description of preliminary feature engineering and preliminary feature selection, including their decision-making process 
+✓ Preliminary feature engineering and feature selection:
 
-✓ Description of how data was split into training and testing sets 
+✓ Data Split, Train and Test: 
 
-✓ Explanation of model choice, including limitations and benefits
+✓ Model choice:
+    We choose multiple linear regression. There are multiple independent variables which make this model the most logial to determin the number of clinics that each state needs to add.
+        <br>
+* Limitations: When using all the independent variables the output for the model prediction is not logical. All of the data process are not on the same normalized scale.
 
+* Benefits: This model allows us to look at multiple data sources 
+<br>
 # <a name='Storyboard'></a>Storyboard
-✓ Description of the tool(s) that will be used to create final dashboard 
+✓ We will use Plotly, JavaScript and Tablue, to create an interactive data visualization for the web. The completed work will be displayed in a portfolio using Gitpages.
 
-✓ Description of interactive element(s) 
+✓ Interactive Features: This interactive web visualization will allow users to select a state and see graphic visualization of the level of access to reproductive health
 
 [Wire Frame for Storyboard](https://docs.google.com/presentation/d/1fNeITHeLO5w1hP_-IijeZu9O0GGq6SPZkKJ5YKQ_M7E/edit#slide=id.p)
 
