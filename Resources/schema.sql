@@ -1,4 +1,4 @@
-CREATE TABLE State_Metrics (
+CREATE TABLE states_data (
     State varchar NOT NULL,
     Abortion_Status varchar   NOT NULL,
     Total_Community_Health_Centers int NOT NULL,
@@ -19,7 +19,7 @@ CREATE TABLE State_Metrics (
 	Poverty_under_200 float NOT NULL
 );
 
-CREATE TABLE abortions (
+CREATE TABLE abortions_data (
     State varchar NOT NULL,
     Percent_of_all_US_abortions float NOT NULL,
     Percent_residents_traveling_outside_state float NOT NULL,
@@ -35,33 +35,38 @@ CREATE TABLE clinics (
 	full_service int NOT NULL
 );
 
+CREATE TABLE land_area (
+    state varchar NOT NULL,
+    land_area_sqmi int NOT NULL
+);
 
-SELECT state_metrics.state,
-	state_metrics.Abortion_Status,
-    state_metrics.Total_Community_Health_Centers,
-    state_metrics.Uninsured,
-    state_metrics.Total_Insured,
-    state_metrics.Maternal_Mortality,
-    state_metrics.Population,
-    state_metrics.No_Doctor_Visits,
-    state_metrics.Mammogram,
-    state_metrics.No_Provider,
-    state_metrics.Pap_Smear,
-    state_metrics.Prescription_Contraception,
-    state_metrics.OTC_Methods,
-    state_metrics.Male_Sterilization,
-    state_metrics.Female_Sterilization,
-    state_metrics.Cost_Sharing,
-	state_metrics.Teen_Births,
-	state_metrics.poverty_under_200,
-    abortions.Percent_of_all_US_abortions,
-    abortions.Percent_residents_traveling_outside_state,
-    abortions.abortions_occurring_state,
-    abortions.abortions_residence_state
+
+SELECT states_data.State,
+    states_data.Abortion_Status,
+    states_data.Total_Community_Health_Centers,
+    states_data.Uninsured,
+    states_data.Total_Insured,
+    states_data.Maternal_Mortality,
+    states_data.Population,
+    states_data.No_Doctor_Visits,
+    states_data.Mammogram,
+    states_data.No_Provider,
+    states_data.Pap_Smear,
+    states_data.Prescription_Contraception,
+    states_data.OTC_Methods,
+    states_data.Male_Sterilization,
+    states_data.Female_Sterilization,
+    states_data.Cost_Sharing,
+	states_data.Teen_Births,
+	states_data.poverty_under_200,
+    abortions_data.Percent_of_all_US_abortions,
+    abortions_data.Percent_residents_traveling_outside_state,
+    abortions_data.abortions_occurring_state,
+    abortions_data.abortions_residence_state
 INTO states_and_abortions
-FROM state_metrics
-INNER JOIN abortions
-ON state_metrics.state = abortions.state;
+FROM states_data
+INNER JOIN abortions_data
+ON states_data.State = abortions_data.state;
 
 SELECT states_and_abortions.state,
 	states_and_abortions.Abortion_Status,
