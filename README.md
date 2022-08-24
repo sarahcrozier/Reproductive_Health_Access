@@ -39,21 +39,21 @@ The purpose of this project is to identify the current state of access to reprod
 * https://www.plannedparenthood.org/
     
     Data pertaining to current planned parenthood clinics.
-### Cleaned Data
- The data was cleaned, merged and placed in a CSV database called merged.csv
+## Cleaned Data
+ The data was cleaned, merged and placed in a CSV database called merged.csv 
 
-### ERD
+## ERD
 The data is organized into databases as followed: 
 
-![ERD](Resources/images/Reproductive_Health_ERD.png)*Reproductive Health ERD*
+![ERD](Resources/images/Updated_Reproductive_Health_ERD.png)*Reproductive Health ERD*
 
-### Analysis
+## Analysis
 * Data Exploration: The preliminary data sources were download individually for each target variable. The data was then cleaned and organized into one single table. The date for crisis centers, community health centers and current reproductive clinics was scrapped from the above websites. The data was than cleaned and unneeded or empty cells were removed. Data between the two tables was standardized for lables and state names. 
 
 * Data Analysis: The prelimary data was analyzed as group. As there are only 51 states it resonable to do the prelimanary work manually. We looked through the rows and columns, checking for any data that did not seem resonable, we discussed any missing data and what the best appoarch for each catagory was. 
 
 # <a name='Usage'></a>Machine Learning
-### Preliminary 
+## Preliminary 
 We began our machine learning using the unsupervised learning method of clustering using K-means. This process grouped similar objects together and yield group similar data points together and discover underlying patterns. The model yielded 5 groups of reproductive health care access.  
 ![Elbow Curve](Images/mlm_elbow_curve.png)
 ![Cluster1](Images/mlm_kcluster_01.png)
@@ -64,10 +64,10 @@ We began our machine learning using the unsupervised learning method of clusteri
 
 Preliminary feature engineering and feature selection:
 
-### Data Split, Train and Test
+## Data Split, Train and Test
  We than used multiple logistic regression to predict how many more community health clinics an area would need in order to fit with the model that was was trained of the areas that had adequate coverage. 
 
-### Model choice
+## Model choice
 We choose multiple linear regression. There are multiple independent variables which make this model the most logial to determin the number of clinics that each state needs to add.
 <br>
 * Limitations: When using all the independent variables the output for the model prediction is not logical. All of the data process are not on the same normalized scale.
