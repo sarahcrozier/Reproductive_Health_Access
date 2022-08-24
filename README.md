@@ -55,11 +55,11 @@ The data is organized into databases as followed:
 # <a name='Usage'></a>Machine Learning
 ## Preliminary 
 We began our machine learning using the unsupervised learning method of clustering using K-means. This process grouped similar objects together and yield group similar data points together and discover underlying patterns. The model yielded 5 groups of reproductive health care access.  
-![Elbow Curve](images/mlm_elbow_curve.png)
-![Cluster1](images/mlm_kcluster_01.png)
-![Cluster2](images/mlm_kcluster_02.png)
-![Cluster3](images/mlm_kcluster_03.png)
-![Cluster4](images/mlm_kcluster_04.png)
+![Elbow Curve](Images/mlm_elbow_curve.png)
+![Cluster1](Images/mlm_kcluster_01.png)
+![Cluster2](Images/mlm_kcluster_02.png)
+![Cluster3](Images/mlm_kcluster_03.png)
+![Cluster4](Images/mlm_kcluster_04.png)
 
 
 Preliminary feature engineering and feature selection:
