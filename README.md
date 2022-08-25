@@ -45,7 +45,7 @@ The purpose of this project is to identify the current state of access to reprod
 ### ERD
 The data is organized into databases as followed: 
 
-![ERD](Resources/images/Updated_Reproductive_Health_ERD.png)*Reproductive Health ERD*
+![ERD](Images/Updated_Reproductive_Health_ERD.png)*Reproductive Health ERD*
 
 ### Analysis
 * Data Exploration: The preliminary data sources were download individually for each target variable. The data was then cleaned and organized into one single table. The date for crisis centers, community health centers and current reproductive clinics was scrapped from the above websites. The data was than cleaned and unneeded or empty cells were removed. Data between the two tables was standardized for lables and state names. 
@@ -73,6 +73,7 @@ We choose multiple linear regression. There are multiple independent variables w
 * Limitations: When using all the independent variables the output for the model prediction is not logical. All of the data process are not on the same normalized scale.
 * Benefits: This model allows us to look at multiple data sources 
 <br>
+
 # <a name='Storyboard'></a>Storyboard
 We will use Plotly, JavaScript and Tablue, to create an interactive data visualization for the web. The completed work will be displayed in a portfolio using Gitpages.
 
