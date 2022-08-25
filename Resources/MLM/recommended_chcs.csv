@@ -1,0 +1,36 @@
+state,total_community_health_centers,predictions,addl_chc_needed,Class
+Alabama,17,21,4,0
+Alaska,27,46,19,0
+Arizona,23,35,12,0
+Arkansas,12,14,2,0
+Colorado,19,28,9,3
+Florida,47,85,38,2
+Georgia,35,43,8,0
+Hawaii,14,4,-10,3
+Idaho,14,12,-2,0
+Indiana,27,27,0,0
+Iowa,14,15,1,3
+Kansas,19,16,-3,0
+Kentucky,25,18,-7,0
+Louisiana,36,19,-17,0
+Michigan,39,41,2,3
+Minnesota,16,26,10,3
+Mississippi,20,13,-7,0
+Missouri,28,27,-1,0
+Montana,14,14,0,0
+Nebraska,7,12,5,0
+New Hampshire,10,4,-6,3
+North Carolina,39,42,3,3
+North Dakota,4,7,3,0
+Ohio,51,46,-5,0
+Oklahoma,21,19,-2,0
+Pennsylvania,42,50,8,3
+Rhode Island,8,2,-6,3
+South Carolina,23,20,-3,0
+South Dakota,4,8,4,0
+Tennessee,29,28,-1,0
+Texas,72,130,58,2
+Utah,13,17,4,0
+West Virginia,28,7,-21,0
+Wisconsin,16,25,9,3
+Wyoming,6,8,2,0
