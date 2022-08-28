@@ -48,24 +48,44 @@ The purpose of this project is to identify the current state of access to reprod
 
 * https://data.guttmacher.org/states
 
-    All abortion data per state for number of abortions, out of state travel for abortions, state of abortion.  
+    All abortion data per state for number of abortions, out of state travel for abortions, state of abortion occurrence.  
 
 ### Cleaned Data
- The data was cleaned, merged and placed in a CSV database called merged.csv 
+
+ We looked through the rows and columns, checking for any data that did not seem resonable, we discussed any missing data and the best approach for each catagory. For example, California and New Hampshire stopped collecting abortion data in 1997 and Maryland stopped collecting in 2006. Guttmacher Institute conducts its own survey with known abortion clinics to provide data on abortions for these states which we inserted into our abortions table. The data from KFF, Guttmacher, Planned Parenthood, and Crisis Pregnancy Center Map was cleaned using pandas in jupyter notebook and Excel/Google Sheets. These files were then made into four tables to create our ERD.
 
 ### ERD
 The data is organized into databases as followed: 
 
 ![ERD](Images/Updated_Reproductive_Health_ERD.png)*Reproductive Health ERD*
 
+This database began with four tables: health_data from KFF, abortions_data from Guttmacher, clinics data from Crisis Pregnancy Centers and Planned Parenthood, and land_area from the Census. These four tables were imported into pgAdmin and joined using a INNER JOIN SQL statements. The final table was then exported to be used for machine learning. Our SQL Alchemy connections can be found in the jupyter notebooks titled Provisional_Machine_Learning_Model, Cleaning_Abortions_Guttmacher, Clustering, and MLM_MLR. 
+
 ### Analysis
-* Data Exploration: The preliminary data sources were download individually for each independent variable. The data was then cleaned. The health data collected was organized into one table (health_data).  The data for crisis centers and current reproductive clinics(clinics) was scraped from the web.  Abortion data (abortions) was downloaded from Guttmarker. Additionally, a table from census was created to claculate population and land-area of each state(land_area). The data was than cleaned and unneeded or empty cells were removed. Data between the tables was standardized for lables and state names. 
+* Data Exploration: The preliminary data sources were download individually for each independent variable. The data was then cleaned. The health data collected was organized into one table (health_data).  The data for crisis centers and current reproductive clinics (clinics) was scraped from the web.  Abortion data (abortions) was downloaded from Guttmarker. Additionally, a table from the Census was created to claculate population and land-area of each state(land_area). The data was than cleaned and unneeded or empty cells were removed. Data between the tables was standardized for lables and state names. 
 
 * Data Processing: 
+The database contains 51 rows of data (50 states + Washington D.C.) and 26 columns. Those columns are:
+- Abortion Policy Tracker which contains a brief summary of each states' abortion policy as of August 2, 2022. Data is reported as categorical with 6 categories.
+- Community Health Centers which are federally-funded health clinics that also provide women's health services. Data is reported as integers - the number of clinics in 2020.
+- Health Insurance Coverage of Women Ages 19 to 64. Insured women reported receive insurance through: employers, non-group, Medicaid, Medicare, military. Some women were also reported as uninsured. Data is reported as integers in 2020.
+- Maternal mortality rate was manually calculated from two data sets. One contained maternal deaths for the years 2018 to 2020 and the other number of live births for 2020. We divided maternal deaths by total births and multiplied by 100,000.
+- Population reported as integers for 2019.
+- The percentage of women who reported not seeing a doctor in the past 12 months due to cost for 2020.
+- The percentage of women age 40 and older who report having had a mammogram within the past two years for 2020.
+- The percentage of women who reported having no personal doctor or health care provider in 2020.
+- The percentage of women ages 18 to 64 who reported having a pap smear within the past three years from 2018 to 2020.
+- The state requirements as of May 1, 2022 for insurance coverage of contraceptives including: prescription contraception, over-the-counter methods, male sterilization, female sterilization, and prohibiting cost sharing.
+- Teen birth rate per 1,000 teens ages 15-19 in 2020. 
+- Distribution of total population by federal poverty level for those 200% and below for 2019.
+- Abortion data providing percentages of all U.S. abortions by state of occurrence for 2020, percentage of residents obtaining abortions who traveled out of state for care in 2020, the number of abortions by state of occurrence for 2020, and the number of abortions by state of residence for 2020.
+- Clinics and levels of services provided: no services (known as fake pregnancy centers), few services, restricted services, and full service.
+- Land area by square kilometers for each state. 
+
 
 ![Join Images](Resources/images/SQL_JOIN_final_table.PNG)
 
-* Data Analysis: The prelimary data was analyzed as team. As there are only 51 states it is resonable to do the prelimanary work manually. We looked through the rows and columns, checking for any data that did not seem resonable, we discussed any missing data and what the best appoarch for each catagory was. Some data was difficult to find, including all abortion data for California, which has not been collected since 1997.
+* Data Analysis: The prelimary data was analyzed as a team. As there are only 51 states it is resonable to do the prelimanary work manually using Excel. Further analysis was done in Jupyter Notebook by using a clustering algorithm, and then a regression model. 
 
 # <a name='Usage'></a>Machine Learning
 ### Preliminary 
