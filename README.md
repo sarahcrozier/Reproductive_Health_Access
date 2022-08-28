@@ -41,6 +41,15 @@ The purpose of this project is to identify the current state of access to reprod
 * https://www.plannedparenthood.org/
     
     Data pertaining to current planned parenthood clinics.
+
+* https://www.census.gov/geographies/reference-files/2010/geo/state-area.html
+
+    Census data showing the geography land area of each state. 
+
+* https://data.guttmacher.org/states
+
+    All abortion data per state for number of abortions, out of state travel for abortions, state of abortion.  
+
 ### Cleaned Data
  The data was cleaned, merged and placed in a CSV database called merged.csv 
 
@@ -50,7 +59,11 @@ The data is organized into databases as followed:
 ![ERD](Images/Updated_Reproductive_Health_ERD.png)*Reproductive Health ERD*
 
 ### Analysis
-* Data Exploration: The preliminary data sources were download individually for each target variable. The data was then cleaned and organized into one single table. The date for crisis centers, community health centers and current reproductive clinics was scrapped from the above websites. The data was than cleaned and unneeded or empty cells were removed. Data between the two tables was standardized for lables and state names. 
+* Data Exploration: The preliminary data sources were download individually for each independent variable. The data was then cleaned. The health data collected was organized into one table (health_data).  The data for crisis centers and current reproductive clinics(clinics) was scraped from the web.  Abortion data (abortions) was downloaded from Guttmarker. Additionally, a table from census was created to claculate population and land-area of each state(land_area). The data was than cleaned and unneeded or empty cells were removed. Data between the tables was standardized for lables and state names. 
+
+* Data Processing: 
+
+![Join Images](Resources/images/SQL_JOIN_final_table.PNG)
 
 * Data Analysis: The prelimary data was analyzed as team. As there are only 51 states it is resonable to do the prelimanary work manually. We looked through the rows and columns, checking for any data that did not seem resonable, we discussed any missing data and what the best appoarch for each catagory was. Some data was difficult to find, including all abortion data for California, which has not been collected since 1997.
 
