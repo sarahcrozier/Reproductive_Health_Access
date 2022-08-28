@@ -65,7 +65,6 @@ The data is organized into databases as followed:
 
 ![Join Images](Resources/images/SQL_JOIN_final_table.PNG)
 
-
 * Data Analysis: The prelimary data was analyzed as team. As there are only 51 states it is resonable to do the prelimanary work manually. We looked through the rows and columns, checking for any data that did not seem resonable, we discussed any missing data and what the best appoarch for each catagory was. Some data was difficult to find, including all abortion data for California, which has not been collected since 1997.
 
 # <a name='Usage'></a>Machine Learning
