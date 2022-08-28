@@ -1,67 +1,52 @@
-﻿"Title: Distribution of Total Population by Federal Poverty Level (CPS) | KFF"
-"Timeframe: 2020"
-"Location","Under 100%","100-199%","200-399%","400%+","Total"
-"United States","0.116","0.161","0.283","0.441","1.000"
-"Alabama","0.151","0.181","0.307","0.361","1.000"
-"Alaska","0.136","0.149","0.277","0.438","1.000"
-"Arizona","0.110","0.188","0.297","0.405","1.000"
-"Arkansas","0.142","0.192","0.340","0.326","1.000"
-"California","0.111","0.161","0.274","0.453","1.000"
-"Colorado","0.095","0.124","0.263","0.518","1.000"
-"Connecticut","0.112","0.116","0.260","0.513","1.000"
-"Delaware","0.106","0.186","0.257","0.450","1.000"
-"District of Columbia","0.167","0.104","0.178","0.551","1.000"
-"Florida","0.134","0.191","0.303","0.373","1.000"
-"Georgia","0.134","0.186","0.292","0.388","1.000"
-"Hawaii","0.110","0.130","0.293","0.466","1.000"
-"Idaho","0.093","0.177","0.344","0.386","1.000"
-"Illinois","0.080","0.149","0.274","0.497","1.000"
-"Indiana","0.122","0.145","0.294","0.438","1.000"
-"Iowa","0.091","0.158","0.295","0.456","1.000"
-"Kansas","0.093","0.160","0.293","0.455","1.000"
-"Kentucky","0.141","0.209","0.304","0.345","1.000"
-"Louisiana","0.157","0.200","0.301","0.342","1.000"
-"Maine","0.081","0.179","0.327","0.413","1.000"
-"Maryland","0.092","0.118","0.210","0.579","1.000"
-"Massachusetts","0.086","0.114","0.236","0.563","1.000"
-"Michigan","0.112","0.138","0.292","0.458","1.000"
-"Minnesota","0.084","0.129","0.244","0.544","1.000"
-"Mississippi","0.176","0.231","0.315","0.277","1.000"
-"Missouri","0.109","0.170","0.296","0.425","1.000"
-"Montana","0.112","0.184","0.333","0.371","1.000"
-"Nebraska","0.083","0.186","0.279","0.452","1.000"
-"Nevada","0.130","0.189","0.301","0.380","1.000"
-"New Hampshire","0.062","0.095","0.238","0.605","1.000"
-"New Jersey","0.082","0.120","0.239","0.559","1.000"
-"New Mexico","0.165","0.243","0.280","0.311","1.000"
-"New York","0.119","0.151","0.267","0.462","1.000"
-"North Carolina","0.139","0.176","0.297","0.388","1.000"
-"North Dakota","0.110","0.163","0.298","0.429","1.000"
-"Ohio","0.129","0.173","0.308","0.391","1.000"
-"Oklahoma","0.156","0.210","0.307","0.328","1.000"
-"Oregon","0.095","0.153","0.256","0.496","1.000"
-"Pennsylvania","0.107","0.134","0.267","0.491","1.000"
-"Rhode Island","0.091","0.147","0.238","0.525","1.000"
-"South Carolina","0.134","0.156","0.329","0.380","1.000"
-"South Dakota","0.116","0.131","0.285","0.468","1.000"
-"Tennessee","0.134","0.193","0.315","0.358","1.000"
-"Texas","0.141","0.174","0.276","0.409","1.000"
-"Utah","0.076","0.125","0.307","0.492","1.000"
-"Vermont","0.089","0.135","0.295","0.482","1.000"
-"Virginia","0.078","0.129","0.261","0.532","1.000"
-"Washington","0.084","0.122","0.278","0.516","1.000"
-"West Virginia","0.142","0.191","0.332","0.335","1.000"
-"Wisconsin","0.082","0.137","0.314","0.467","1.000"
-"Wyoming","0.100","0.182","0.318","0.400","1.000"
-
-"Notes"
-"For 2020, the majority of our health coverage topics are based on analysis of the Census Bureau’s March Supplement to the Current Population Survey (the CPS Annual Social and Economic Supplement or ASEC). Previously, our source for these data was the Census Bureau’s American Community Survey (ACS); however, release of the ACS data has been delayed due to the coronavirus pandemic. Although health coverage and population estimates using ACS are still available for 2008-2019, the 2020 data from CPS cannot be compared to prior year estimates from ACS. Due to known data quality issues with the 2019 CPS ASEC data, which was collected in March 2020 just at the onset of the pandemic and experienced low response rates, we have chosen not to report the 2019 data. We provide trend data for 2016, 2018, and 2020 using the CPS."
-""
-"Data may not sum to totals due to rounding."
-""
-"The U.S. Census Bureau's poverty threshold for a family with two adults and one child was $20,578 in 2019. This is the official measurement of poverty used by the Federal Government, and the measure used for most poverty-based data presented on State Health Facts. The Department of Health and Human Services (HHS) produces simplified - but very similar - versions of these poverty thresholds called ""poverty guidelines"" that are used to assess eligibility for income-based programs such as Medicaid. For more information on measures of poverty, please see the detailed description provided by HHS: [http://aspe.hhs.gov/poverty/faq.cfm](http://aspe.hhs.gov/poverty/faq.cfm). For 2019 and historical thresholds, use [https://www.census.gov/data/tables/time-series/demo/income-poverty/historical-poverty-thresholds.html](https://www.census.gov/data/tables/time-series/demo/income-poverty/historical-poverty-thresholds.html)."
-
-"Sources"
-"KFF estimates based on the Census Bureau's March Current Population Survey (CPS: Annual Social and Economic Supplements), 2017-2021."
-
-
+State,Poverty_Under_200
+Alabama,0.332
+Alaska,0.285
+Arizona,0.298
+Arkansas,0.334
+California,0.272
+Colorado,0.219
+Connecticut,0.228
+Delaware,0.292
+District of Columbia,0.271
+Florida,0.325
+Georgia,0.32
+Hawaii,0.24
+Idaho,0.27
+Illinois,0.229
+Indiana,0.267
+Iowa,0.249
+Kansas,0.253
+Kentucky,0.35
+Louisiana,0.357
+Maine,0.26
+Maryland,0.21
+Massachusetts,0.2
+Michigan,0.25
+Minnesota,0.213
+Mississippi,0.407
+Missouri,0.279
+Montana,0.296
+Nebraska,0.269
+Nevada,0.319
+New Hampshire,0.157
+New Jersey,0.202
+New Mexico,0.408
+New York,0.27
+North Carolina,0.315
+North Dakota,0.273
+Ohio,0.302
+Oklahoma,0.366
+Oregon,0.248
+Pennsylvania,0.241
+Rhode Island,0.238
+South Carolina,0.29
+South Dakota,0.247
+Tennessee,0.327
+Texas,0.315
+Utah,0.201
+Vermont,0.224
+Virginia,0.207
+Washington,0.206
+West Virginia,0.333
+Wisconsin,0.219
+Wyoming,0.282
