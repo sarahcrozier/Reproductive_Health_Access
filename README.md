@@ -88,8 +88,32 @@ The database contains 51 rows of data (50 states + Washington D.C.) and 26 colum
 * Data Analysis: The prelimary data was analyzed as a team. As there are only 51 states it is resonable to do the prelimanary work manually using Excel. Further analysis was done in Jupyter Notebook by using a clustering algorithm, and then a regression model. 
 
 # <a name='Usage'></a>Machine Learning
+### Model choice
+- Two machine learning models were used: clustering and regression. K-means clustering was selected because of its ease and quick running time and linear regression was chosen because there are multiple independent variables which make this model the most logial to determin the number of clinics that each state needs to add.
+- Limitations: The k-means algorithm is better suited when there is a known number of clusters, although an elbow curve was used to provide insight into the best number of clusters to use. When using all the independent variables for the linear regression, the output for the model prediction is not logical. We recognized that not all variables were completely independent of each other, which is discussed further below. 
+- Benefits: This model allows us to look at multiple data sources 
+
+
 ### Preliminary 
-- We began our machine learning using the unsupervised learning method of clustering using K-means. This process grouped similar objects together and yield group similar data points together and discover underlying patterns. The model yielded 5 groups of reproductive health care access.  
+States were first clustered based on existing conditions to identify a scale of best quality to worst. The clustering process was as follows:
+
+Preprocessed and Scaled the Data on the Clustering.ipynb
+- Imported dependencies: Pandas, hvplot, Plotly Express, and SciKit Learn’s Standard Scaler, PCA, and KMeans. 
+- Preprocessed the data by converting categorical data to numerical data using Panda’s get_dummies. 
+- Standardized the full dataset using SciKit Learn’s StandardScaler (because some features measured in the millions and others in fractions).
+- Reduceded dimensions using PCA to three principal components
+- Created an elbow curve with 3 principal components to determine the best value for K-means clustering. 
+
+K-means Clustering
+- The elbow curve showed that the best options for clustering were 3 or 5, and we selected 5 and initialized the K-means model with n_clusters=5 to provide a better range of quality to group against. 
+- Created a new DataFrame including predicted clusters (titled Class), the principal components, and original features. 
+- Used Plotly Express to create a 3D-Scatter with the PCA data as the x, y, and z axes. Hover text was added to easily identify each state’s name and current abortion status.  
+    - Three distinct clusters formed, and two clusters of what appeared to be outliers. 
+- Exported the DataFrame used to create the 3D-Scatter plot to Excel to further analyze the groupings. 
+    - Class 4 contained New York and California and in evaluating their features, we determined that that was the top performing outlier cluster for existing reproductive health care. 
+    - The same process was used to evaluate the remaining clusters and found the true order of existing care from best to worst: Class 4, Class 1, Class 3, Class 0, and the worst cluster outlier of Class 2 - Texas and Florida.
+
+  
 ![Elbow Curve](Images/mlm_elbow_curve.png)
 ![Cluster1](Images/mlm_kcluster_01.png)
 ![Cluster2](Images/mlm_kcluster_02.png)
@@ -97,15 +121,22 @@ The database contains 51 rows of data (50 states + Washington D.C.) and 26 colum
 ![Cluster4](Images/mlm_kcluster_04.png)
 
 
-- Preliminary feature engineering and feature selection: 
+- Preliminary feature engineering and feature selection: all data was used. 
 
 ### Data Split, Train and Test
-- We than used multiple logistic regression to predict how many more community health clinics an area would need in order to fit with the model that was was trained of the areas that had adequate coverage. 
+Once the clustered data was analyzed, multi-linear regression was used in the following steps on the MLM_MLR.ipynb: 
+- Imported dependencies: NumPy, Pandas, PyPlot. And SciKit Learn’s Linear Regression and StandardScaler. 
+- Preprocessed the data by removing the PCA features and binary features and converted the categorical data (abortion status) to numerical. 
+- Split the data into two sets: train and test. The train dataset included the states from the two best performing clusters: Class 4 and Class 1; the test dataset included the remaining states from Class 0, 2, and 3. This was used to predict a best-case scenario for poorer performing states.  
+- Used StandardScaler to scale all data.
+- Fit the training data to create our Linear Regression model. 
+- Used the model to create y_pred_scaled. Since the data was still scaled, we ran inverse_transform to see our results. A table was created to show the current total number of community health centers per state and then non-scaled y_pred was used as the predicted number of health centers each state needs. A simple subtraction equation between the two to determine the additional number of centers needed was used. 
 
-### Model choice
-- We choose multiple linear regression. There are multiple independent variables which make this model the most logial to determin the number of clinics that each state needs to add.
-- Limitations: When using all the independent variables the output for the model prediction is not logical. All of the data process are not on the same normalized scale.
-- Benefits: This model allows us to look at multiple data sources 
+Evaluating feature importance and re-running the model
+- Running all of the features resulted in predictions that included negative values for predicted clinics, so we used the linear regression coefficients to run a feature importance. The status of abortion feature was not adding to the model, so it was removed. As a group, we discussed which features were actually contributing to the number of necessary clinics in the state versus which were a result of clinics in the state. The feature list was narrowed down to population, poverty, and square mileage. 
+- The linear regression model was run again with Class 4 and Class 1 states and the test states were fit to the new model. The results made a lot more sense, giving us all positive values for the predictions (meaning the total number of clinics needed in each state were positive values). The data was then exported for visualizations.
+
+With our machine learning models, we were able to successfully build clusters, however, the linear regression provided results that we didn’t quite accept and don’t agree with. For example, Mississippi and Louisiana have poor existing healthcare, but the final linear regression recommended that clinics be closed in both states. If more time was allowed, we would recommend finding more meaningful data to run through both machine learning models. We recommend including more socioeconomic data than just poverty - including population distribution by race/ethnicity, population distribution by age focusing on the range that is still in their reproductive years, as well as transportation data, data on sexually transmitted infections, sexual education availability, cancer screenings, and more.
 
 # <a name='Storyboard'></a>Storyboard
 - We will use Plotly, JavaScript and Tablue, to create an interactive data visualization for the web. The completed work will be displayed in a portfolio using Gitpages.
