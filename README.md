@@ -90,12 +90,12 @@ The database contains 51 rows of data (50 states + Washington D.C.) and 26 colum
 # <a name='Usage'></a>Machine Learning
 ### Model choice
 - Two machine learning models were used: clustering and regression. K-means clustering was selected because of its ease and quick running time and linear regression was chosen because there are multiple independent variables which make this model the most logial to determin the number of clinics that each state needs to add.
-- Limitations: The k-means algorithm is better suited when there is a known number of clusters, although an elbow curve was used to provide insight into the best number of clusters to use. When using all the independent variables for the linear regression, the output for the model prediction is not logical. We recognized that not all variables were completely independent of each other, which is discussed further below. - Benefits: This model allows us to look at multiple data sources 
-
+- Limitations: The k-means algorithm is better suited when there is a known number of clusters, although an elbow curve was used to provide insight into the best number of clusters to use. When using all the independent variables for the linear regression, the output for the model prediction is not logical. We recognized that not all variables were completely independent of each other, which is discussed further below. 
+- Benefits: This model allows us to look at multiple data sources 
 
 
 ### Preliminary 
--  States were first clustered based on existing conditions to identify a scale of best quality to worst. The clustering process was as follows:
+States were first clustered based on existing conditions to identify a scale of best quality to worst. The clustering process was as follows:
 
 Preprocessed and Scaled the Data on the Clustering.ipynb
 - Imported dependencies: Pandas, hvplot, Plotly Express, and SciKit Learn’s Standard Scaler, PCA, and KMeans. 
