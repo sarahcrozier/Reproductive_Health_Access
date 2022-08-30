@@ -6,8 +6,7 @@
 * [Overview](#Overview)
 * [Data](#Data)
 * [Machine Learning](#Machine_Learning)
-* [Storyboard](#Storyboard)
-* [Working Agreement](#Working)
+* [Dashboard](#Dashboard)
 * [Further Study](#AdditionalStudy)
 * [Additional Resources](#AdditionalResources)
 
@@ -61,10 +60,10 @@ The data is organized into databases as followed:
 
 This database began with four tables: health_data from KFF, abortions_data from Guttmacher, clinics data from Crisis Pregnancy Centers and Planned Parenthood, and land_area from the Census. These four tables were imported into pgAdmin and joined using a INNER JOIN SQL statements. The final table was then exported to be used for machine learning. Our SQL Alchemy connections can be found in the jupyter notebooks titled Provisional_Machine_Learning_Model, Cleaning_Abortions_Guttmacher, Clustering, and MLM_MLR. 
 
-### Analysis
-* Data Exploration: The preliminary data sources were download individually for each independent variable. The data was then cleaned. The health data collected was organized into one table (health_data).  The data for crisis centers and current reproductive clinics (clinics) was scraped from the web.  Abortion data (abortions) was downloaded from Guttmarker. Additionally, a table from the Census was created to claculate population and land-area of each state(land_area). The data was than cleaned and unneeded or empty cells were removed. Data between the tables was standardized for lables and state names. 
+### Data Exploration 
+The preliminary data sources were download individually for each independent variable. The data was then cleaned. The health data collected was organized into one table (health_data).  The data for crisis centers and current reproductive clinics (clinics) was scraped from the web.  Abortion data (abortions) was downloaded from Guttmarker. Additionally, a table from the Census was created to claculate population and land-area of each state(land_area). The data was than cleaned and unneeded or empty cells were removed. Data between the tables was standardized for lables and state names. 
 
-* Data Processing: 
+### Data Processing 
 The database contains 51 rows of data (50 states + Washington D.C.) and 26 columns. Those columns are:
 - Abortion Policy Tracker which contains a brief summary of each states' abortion policy as of August 2, 2022. Data is reported as categorical with 6 categories.
 - Community Health Centers which are federally-funded health clinics that also provide women's health services. Data is reported as integers - the number of clinics in 2020.
@@ -85,7 +84,8 @@ The database contains 51 rows of data (50 states + Washington D.C.) and 26 colum
 
 ![Join Images](Resources/images/SQL_JOIN_final_table.PNG)
 
-* Data Analysis: The prelimary data was analyzed as a team. As there are only 51 states it is resonable to do the prelimanary work manually using Excel. Further analysis was done in Jupyter Notebook by using a clustering algorithm, and then a regression model. 
+### Data Analysis
+ The prelimary data was analyzed as a team. As there are only 51 states it is resonable to do the prelimanary work manually using Excel. Further analysis was done in Jupyter Notebook by using a clustering algorithm, and then a regression model. 
 
 # <a name='Usage'></a>Machine Learning
 ### Model choice
@@ -108,10 +108,10 @@ K-means Clustering
 - The elbow curve showed that the best options for clustering were 3 or 5, and we selected 5 and initialized the K-means model with n_clusters=5 to provide a better range of quality to group against. 
 - Created a new DataFrame including predicted clusters (titled Class), the principal components, and original features. 
 - Used Plotly Express to create a 3D-Scatter with the PCA data as the x, y, and z axes. Hover text was added to easily identify each state’s name and current abortion status.  
-    - Three distinct clusters formed, and two clusters of what appeared to be outliers. 
+- Three distinct clusters formed, and two clusters of what appeared to be outliers. 
 - Exported the DataFrame used to create the 3D-Scatter plot to Excel to further analyze the groupings. 
-    - Class 4 contained New York and California and in evaluating their features, we determined that that was the top performing outlier cluster for existing reproductive health care. 
-    - The same process was used to evaluate the remaining clusters and found the true order of existing care from best to worst: Class 4, Class 1, Class 3, Class 0, and the worst cluster outlier of Class 2 - Texas and Florida.
+- Class 4 contained New York and California and in evaluating their features, we determined that that was the top performing outlier cluster for existing reproductive health care. 
+- The same process was used to evaluate the remaining clusters and found the true order of existing care from best to worst: Class 4, Class 1, Class 3, Class 0, and the worst cluster outlier of Class 2 - Texas and Florida.
 
   
 ![Elbow Curve](Images/mlm_elbow_curve.png)
@@ -138,28 +138,58 @@ Evaluating feature importance and re-running the model
 
 With our machine learning models, we were able to successfully build clusters, however, the linear regression provided results that we didn’t quite accept and don’t agree with. For example, Mississippi and Louisiana have poor existing healthcare, but the final linear regression recommended that clinics be closed in both states. If more time was allowed, we would recommend finding more meaningful data to run through both machine learning models. We recommend including more socioeconomic data than just poverty - including population distribution by race/ethnicity, population distribution by age focusing on the range that is still in their reproductive years, as well as transportation data, data on sexually transmitted infections, sexual education availability, cancer screenings, and more.
 
-# <a name='Storyboard'></a>Storyboard
-- We will use Plotly, JavaScript and Tablue, to create an interactive data visualization for the web. The completed work will be displayed in a portfolio using Gitpages.
+# <a name='Dashboard'></a>Dashboard
+- We used Tableau to create the interactive dashboard.
 
 - Interactive Features: This interactive web visualization will allow users to select a state and see graphic visualization of the level of access to reproductive healthcare.
 
-[Wire Frame for Storyboard](https://docs.google.com/presentation/d/1fNeITHeLO5w1hP_-IijeZu9O0GGq6SPZkKJ5YKQ_M7E/edit#slide=id.p)
+[Current State of Reproductive Healthcare 2022 Interactive Dashboard](https://public.tableau.com/views/CurrentStatusofReproductiveHealthcareintheUS2022/CurrentAccesstoReproductiveCare?:language=en-US&:display_count=n&:origin=viz_share_link)
+![Dashboard](Dashboard/Dashboard.png)
 
-# <a name='Working'></a>Working Agreements
-* We agree to be kind and professional.
-* We will meet via zoom 30 minutes before each class.
-* We will schedule additional meetings as needed, included but not limited to Sunday work sessions from 2-5 pm. 
-* We will communicate urgent issues via text.
-* We will communicate non-urgent issues via Slack
-* We will save documents to our shared Google drive. 
-* We agree to push our work to our branch to allow others to review our work. 
-* We will update Jamboard to show the flow of our work.
+
+<script type='text/javascript' src='http://public.tableau.com/javascripts/api/viz_v1.js'></script>
+<div class='tableauPlaceholder' id='viz1661830184586' style='position: relative'>
+<noscript>
+<a href='#'>
+<img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cu&#47;CurrentStatusofReproductiveHealthcareintheUS2022&#47;CurrentAccesstoReproductiveCare&#47;1_rss.png' style='border: none' />
+</a>
+</noscript>
+<object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+<param name='embed_code_version' value='3' /> 
+<param name='site_root' value='' /><param name='name' value='CurrentStatusofReproductiveHealthcareintheUS2022&#47;CurrentAccesstoReproductiveCare' />
+<param name='tabs' value='yes' />
+<param name='toolbar' value='yes' />
+<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cu&#47;CurrentStatusofReproductiveHealthcareintheUS2022&#47;CurrentAccesstoReproductiveCare&#47;1.png' /> 
+<param name='animate_transition' value='yes' />
+<param name='display_static_image' value='yes' />
+<param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' />
+<param name='language' value='en-US' />
+</object>
+</div>
+                <script type='text/javascript'>                    
+                var divElement = document.getElementById('viz1661830184586');                    
+                var vizElement = divElement.getElementsByTagName('object')[0];                    
+                vizElement.style.width='1016px';vizElement.style.height='1014px';                    
+                var scriptElement = document.createElement('script');                    
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                </script>
+
+
+
 
 # <a name='Further Study'></a>Further Study
 * We would need to continue to collect data that would show clinics that are closing and do not offer services to clients. 
 
 * This study is still showing that some states need less clinics. It would be a valuable further study to analyz the factors that contribute to more clinics being needed certain areas. Further analysis using other machine learning models would lead to even more valuable results. 
 
+* More meaningful data that will help us build a predictive model that could assist in identifying areas that truly need higher levels of care. 
+
+* More advanced machine learning models, for example neural network may bridge the the gap between the math and the practical application. 
+
+* Predicting where in each state we would put new clinics based on existing level of access and poverty. 
+
+* Continuing to monitor the evolving changes in the status of reproductive healthcare access.
 
 # <a name='AdditionalResources'></a>Additional Resources
 [Group Google Shared Drive ](https://drive.google.com/drive/u/0/folders/1aURcy_XHSeTBuxBs2TyEmiRUIgIQ5zvV)
