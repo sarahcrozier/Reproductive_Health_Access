@@ -147,37 +147,6 @@ With our machine learning models, we were able to successfully build clusters, h
 ![Dashboard](Dashboard/Dashboard.png)
 
 
-<script type='text/javascript' src='http://public.tableau.com/javascripts/api/viz_v1.js'></script>
-<div class='tableauPlaceholder' id='viz1661830184586' style='position: relative'>
-<noscript>
-<a href='#'>
-<img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cu&#47;CurrentStatusofReproductiveHealthcareintheUS2022&#47;CurrentAccesstoReproductiveCare&#47;1_rss.png' style='border: none' />
-</a>
-</noscript>
-<object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-<param name='embed_code_version' value='3' /> 
-<param name='site_root' value='' /><param name='name' value='CurrentStatusofReproductiveHealthcareintheUS2022&#47;CurrentAccesstoReproductiveCare' />
-<param name='tabs' value='yes' />
-<param name='toolbar' value='yes' />
-<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cu&#47;CurrentStatusofReproductiveHealthcareintheUS2022&#47;CurrentAccesstoReproductiveCare&#47;1.png' /> 
-<param name='animate_transition' value='yes' />
-<param name='display_static_image' value='yes' />
-<param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' />
-<param name='language' value='en-US' />
-</object>
-</div>
-                <script type='text/javascript'>                    
-                var divElement = document.getElementById('viz1661830184586');                    
-                var vizElement = divElement.getElementsByTagName('object')[0];                    
-                vizElement.style.width='1016px';vizElement.style.height='1014px';                    
-                var scriptElement = document.createElement('script');                    
-                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-                </script>
-
-
-
-
 # <a name='Further Study'></a>Further Study
 * We would need to continue to collect data that would show clinics that are closing and do not offer services to clients. 
 
@@ -192,7 +161,9 @@ With our machine learning models, we were able to successfully build clusters, h
 * Continuing to monitor the evolving changes in the status of reproductive healthcare access.
 
 # <a name='AdditionalResources'></a>Additional Resources
-[Group Google Shared Drive ](https://drive.google.com/drive/u/0/folders/1aURcy_XHSeTBuxBs2TyEmiRUIgIQ5zvV)
+
 
 [Google Slides Presentation](https://docs.google.com/presentation/d/1kcj6kuOmC0LJDoqfipSAFfxEbHqrjBkker1FSNAJY7w/edit#slide=id.p)
+
+[Group Google Shared Drive ](https://drive.google.com/drive/u/0/folders/1aURcy_XHSeTBuxBs2TyEmiRUIgIQ5zvV)
 
