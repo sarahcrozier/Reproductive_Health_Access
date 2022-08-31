@@ -138,6 +138,8 @@ Evaluating feature importance and re-running the model
 
 With our machine learning models, we were able to successfully build clusters, however, the linear regression provided results that we didn’t quite accept and don’t agree with. For example, Mississippi and Louisiana have poor existing healthcare, but the final linear regression recommended that clinics be closed in both states. If more time was allowed, we would recommend finding more meaningful data to run through both machine learning models. We recommend including more socioeconomic data than just poverty - including population distribution by race/ethnicity, population distribution by age focusing on the range that is still in their reproductive years, as well as transportation data, data on sexually transmitted infections, sexual education availability, cancer screenings, and more.
 
+To score the models, we used an R-squared calculation on the training set. Because we knew that the training set is 'ideal' in terms of this project, we knew that an R-squared performed on the test set would perform poorly because we wanted the model to not predict the current number of clinics, but actually more for states that currently offer less care. Scoring our training set was the best measurement to determining the effectiveness of our model. We were happy that we we re-ran the model using fewer variables resulted in an R-squared score of .95.  
+
 # <a name='Dashboard'></a>Dashboard
 - We used Tableau to create the interactive dashboard.
 
