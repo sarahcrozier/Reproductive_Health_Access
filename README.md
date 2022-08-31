@@ -146,6 +146,13 @@ With our machine learning models, we were able to successfully build clusters, h
 [Current State of Reproductive Healthcare 2022 Interactive Dashboard](https://public.tableau.com/views/CurrentStatusofReproductiveHealthcareintheUS2022/CurrentAccesstoReproductiveCare?:language=en-US&:display_count=n&:origin=viz_share_link)
 ![Dashboard](Dashboard/Dashboard.png)
 
+<svg fill="none" viewBox="0 0 120 120" width="120" height="120" xmlns="http://www.w3.org/2000/svg">
+
+  <foreignObject width="100%" height="100%">
+    <div class='tableauPlaceholder' id='viz1661910878044' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cu&#47;CurrentStatusofReproductiveHealthcareintheUS2022&#47;CurrentAccesstoReproductiveCare&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='CurrentStatusofReproductiveHealthcareintheUS2022&#47;CurrentAccesstoReproductiveCare' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cu&#47;CurrentStatusofReproductiveHealthcareintheUS2022&#47;CurrentAccesstoReproductiveCare&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1661910878044');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1016px';vizElement.style.height='1014px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script> 
+
+  </foreignObject>
+</svg>
 
 # <a name='Further Study'></a>Further Study
 * We would need to continue to collect data that would show clinics that are closing and do not offer services to clients. 
